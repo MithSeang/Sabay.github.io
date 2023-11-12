@@ -1,0 +1,446 @@
+*{
+    list-style-type: none;
+}
+.body{
+    font-family: 'Arial','Battambang',cursive;
+    /* font-family: 'Bayon',sans-serif; */
+
+}
+.box1{
+    background-color: rgba(0, 0, 0, 0.932);
+}
+.containner{
+    padding: 15px;
+    width: 70%;
+}
+.img-header img{
+    height: 85px;
+}
+.ads img{
+    width: 100%;
+    height: 85px;
+}
+.container-nav{
+    width: 70%;
+    overflow: hidden;
+}
+.menubar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menubar ul li{
+    float: left;
+}
+.menubar ul li a{
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial','Bayon',sans-serif;
+    font-size: 18px;
+}
+.menubar ul li.btnMenu{
+    display: none;
+}
+.bodyy{
+    width: 70%;
+    margin-top: 10px;
+}
+.left-body .header-body{
+    width: 100%;
+    float: left;
+    border-bottom: solid 2px rgb(131, 181, 131);
+}
+
+.left-body .header-body h1{
+    font-size: 22px;
+    margin: 0;
+    float: left;
+    color: white;
+    padding: 10px 20px;
+    padding-right: 50px;
+    background-color: rgb(131, 181, 131);
+    font-family: 'Arial','Bayon',sans-serif;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.left-body .all-box{
+    padding: 15px 20px;
+    width: 100%;
+    float: left;
+    background-color: white;
+    box-shadow: 1px 1px 8px 0 #ccc;
+}
+.left-body .all-box .left-box1{
+    width: 49%;
+    float: left;
+    height: 300px;
+    display: block;
+}
+.left-body .all-box .left-box2{
+    margin-left: 2%;
+    width: 49%;
+    float: left;
+    height: 300px;
+    display: block;
+
+}
+.left-body .all-box .left-box1 .img-box{
+    padding: 5px 0px;
+    width: 100%;
+    height: 70%;
+    float: left;
+    background-color: black;
+}
+.left-body .all-box .left-box1 .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    transition: 0.3s;
+}
+.left-body .all-box .left-box1 .text-box{
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+.left-body .all-box .left-box1 .text-box p{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Arial','Battambang',cursive;
+    text-align:left;
+}
+.left-body .all-box .left-box2 .img-box{
+    width: 100%;
+    height: 70%;
+    float: left;
+}
+.left-body .all-box .left-box2 .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    transition: 0.3s;
+}
+.left-body .all-box .left-box2 .text-box{
+    width: 100%;
+    height: 30%;
+    float: left;
+    
+}
+.left-body .all-box .left-box2 .text-box p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Arial','Battambang',cursive;
+    text-align:left;
+}
+.left-body .all-box .left-box1:hover img{
+    transform:scale(0.99) ;
+    
+}
+.left-body .all-box .left-box2:hover img{
+    transform:scale(0.99) ;
+}
+.left-body .s-body{
+    margin-top: 30px;
+    width: 100%;
+    float: left;
+}
+.left-body .s-body .left-img{
+    float: left;
+    width: 38%;
+    height: 160px;
+}
+.left-body .s-body .left-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.left-body .s-body .s-textbox{
+    width: 60%;
+    height: 100%;
+    margin-left: 2%;
+    float: left;
+}
+.left-body .s-body .s-textbox h3{
+    font-size: 17px;
+    color: black;
+    line-height: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+.left-body .s-body .s-textbox p{
+    font-size: 13px;
+    color: grey;
+    margin-left:10px;
+}
+#t{
+    font-size: 15px;
+    margin: 0;
+    color: black;
+    padding: 0;
+}
+.right-ads{
+    margin-top:5px;
+ 
+}
+.right-ads ul li{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.right-ads ul li a img{
+    width: 100%;
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+        
+        .container-nav ul li a{
+            font-size: 16px;
+            padding: 10px;
+        }
+   
+       
+       
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .containner{
+        width: 100%;
+        background-color: red;
+    }
+    .container-nav{
+        width: 100%;
+    }
+    .menubar ul{
+        text-align: left;
+    }
+    .bodyy{
+        width: 100%;
+    }
+    .left-body .all-box .left-box1{
+        height: 250px;
+    }
+    .left-body .all-box .left-box2{
+        height: 250px;
+    }
+    .left-body .s-body{
+        margin-top: 70px;
+        height: 140px;
+    }
+    .left-body .s-body .s-textbox h3{
+        font-size: 15px;
+    }
+    .left-body .s-body .s-textbox p{
+        font-size: 10px;
+    }
+    #t{
+        font-size: 14px;
+    }
+    .left-body .s-body .left-img{
+        float: left;
+        width: 35%;
+        height: 85%;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.containner{
+        width: 100%;
+    }
+  
+    .container-nav{
+        width: 100%;
+        height: 50px;
+    }
+    .menubar ul li a {
+        padding: 13px;
+        font-size: 15px;
+    }
+    .bodyy{
+        width: 100%;
+    }
+    .left-body .s-body{
+        margin-top: 30px;
+    }
+    .left-body .all-box .left-box1{
+        height: 300px;
+    }
+    .left-body .all-box .left-box2{
+        height: 300px;
+    }
+    .left-body .all-box .left-box1 .img-box{
+        height: 40%;
+    }
+    .left-body .all-box .left-box2 .img-box{
+        height: 40%;
+    }
+    .left-body .s-body .left-img{
+        width: 100%;
+        height: 200px;
+    }
+    .left-body .s-body .s-textbox{
+        
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        margin-top: 15px;
+        float: left;
+    }
+    .left-body .s-body .s-textbox h3{
+        font-size: 15px;
+        color: black;
+       
+    }
+    .left-body .s-body .s-textbox p{
+        font-size: 13px;
+        color: grey;
+        margin-left:10px;
+        margin: 0;  
+    }
+    #t{  
+        font-size: 14px;
+    }
+    
+
+    
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	.containner{ 
+        width: 100%;
+        padding: 0;
+    }
+    .container-nav{
+        width: 100%;
+    }
+   
+    .menubar ul li.btnMenu{
+        display: block;
+    }
+    .menubar ul li:not(.btnMenu){
+        display: none;
+    }
+    .logo-sabay{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .bodyy{
+        width: 100%;
+        padding: 0;
+    }
+   
+    .left-body .all-box .left-box1{
+        width: 49%;
+    }
+    .left-body .all-box .left-box2{
+        margin-left: 2%;
+        width: 49%;     
+    }
+    .left-body .s-body .left-img{
+        width: 100%;
+        height: 150px;
+    }
+    .left-body .s-body{
+        margin-top: 50px;
+        width: 49%;
+        float: left;
+    }
+    .left-body .s-body:nth-child(even){
+        margin-left: 2%;
+    }
+    .left-body .s-body .s-textbox{
+        
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        margin-top: 15px;
+        float: left;
+    }
+    .left-body .s-body .s-textbox h3{
+        font-size: 15px;
+        color: black;
+       
+    }
+    .left-body .s-body .s-textbox p{
+        font-size: 13px;
+        color: grey;
+        margin-left:10px;
+        margin: 0;  
+        display: none;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.containner{
+        width: 100%;
+        padding: 0;
+    }
+    .container-nav{
+        width: 100%;
+    }
+    .container-nav .menubar{
+        width: 100%;
+    }
+    .logo-sabay{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .menubar ul li.btnMenu{
+        display: block;
+    }
+    .menubar ul li:not(.btnMenu){
+        display: none;
+    }
+    .bodyy{
+        width: 100%;
+        padding: 0;
+    }
+    .left-body .all-box .left-box1{
+        width: 49%;
+        height: 170px;
+    }
+    .left-body .all-box .left-box2{
+        margin-left: 2%;
+        width: 49%;    
+        height: 170px; 
+    }
+    .left-body .s-body .left-img{
+        width: 100%;
+        height: 130px;
+    }
+    .left-body .s-body{
+        margin-top:100px;
+        width: 49%;
+        float: left;
+    }
+    .left-body .s-body:nth-child(even){
+        margin-left: 2%;
+    }
+    .left-body .s-body .s-textbox{
+        
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        margin-top: 15px;
+        float: left;
+    }
+    .left-body .s-body .s-textbox h3{
+        font-size: 15px;
+        color: black;
+       
+    }
+    .left-body .s-body .s-textbox p{
+        font-size: 13px;
+        color: grey;
+        margin-left:10px;
+        margin: 0;  
+        display: none;
+    }
+}
